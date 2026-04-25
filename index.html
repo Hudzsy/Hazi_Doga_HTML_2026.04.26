@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmgaléria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-layout">
+        <nav class="menu">
+            <div class="logo">MovieBox</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Kezdőlap</a></li>
+                <li><a href="#sidebar">Kategóriák</a></li>
+                <li><a href="#gallery-section">Galéria</a></li>
+                <li><a href="#footer">Kapcsolat</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero" id="hero">
+            <div class="hero-content">
+                <h1>Merülj el a filmek világában</h1>
+                <p>
+                    Fedezd fel a legizgalmasabb történeteket...
+                </p>
+                <a href="#gallery-section" class="hero-btn">Galéria megnyitása</a>
+            </div>
+        </header>
+
+        <main class="content-layout">
+            <aside id="sidebar">
+                <h2>Információk</h2>
+
+                <ul class="side-menu" id="movie-list">
+                    <li>Betöltés...</li>
+                </ul>
+            </aside>
+
+            <article id="gallery-section">
+                <div class="article-head">
+                    <h2>Film poszterek</h2>
+                </div>
+
+                <div id="gallery" class="bento-grid"></div>
+            </article>
+        </main>
+
+        <footer id="footer">
+            <p>&copy; 2026 MovieBox</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
